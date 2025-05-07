@@ -10,7 +10,7 @@ import { ThemeProvider } from 'styled-components'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
    <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename='/Grocery_Recommendation_System'>
         <App />
       </BrowserRouter>
    </ThemeProvider>
