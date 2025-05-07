@@ -2,7 +2,7 @@
 
 **📌 Project Overview**
 
-The Grocery Recommendation System is a modern web application built to enhance the grocery shopping experience.A modern and intelligent grocery shopping web application built using **React**, **TypeScript**, **Styled Components**, and **Vite**. It offers intelligent recommendations, personalized meal kits, and an interactive, user-friendly interface optimized for performance.
+The Grocery Recommendation System is a modern web application built to enhance the grocery shopping experience.A modern and intelligent grocery shopping web application built using **React**, **TypeScript**, **Styled Components**, and **Vite**. It offers intelligent recommendations according to the user cart activities for that particular category, curated meal kits, and an interactive, user-friendly interface optimized for performance.
 
 **Tech Stack:**
 
