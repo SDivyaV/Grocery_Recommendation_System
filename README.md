@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+**Grocery Recommendation System**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**📌 Project Overview**
 
-Currently, two official plugins are available:
+The Grocery Recommendation System is a modern web application built to enhance the grocery shopping experience.A modern and intelligent grocery shopping web application built using **React**, **TypeScript**, **Styled Components**, and **Vite**. It offers intelligent recommendations, personalized meal kits, and an interactive, user-friendly interface optimized for performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tech Stack:**
 
-## Expanding the ESLint configuration
+React ⚛️ 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+TypeScript 🟦 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Styled-Components 💅
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Vite ⚡ 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+LocalStorage 🗂️
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+**✅ Features**
+
+1. 🧠 Smart Recommendations
+   
+    a. Dynamic grocery recommendations based on:
+
+      -> Category-specific price ranges
+
+      -> User cart selections
+
+    b. Helps users discover budget-friendly and relevant items.
+
+2. 🍱 Meal Kits Integration
+
+    -> Curated Meal Kits displayed on the cart/billing page
+
+    -> One-click selection adds all ingredients to the cart
+
+    -> Users also receive a detailed recipe with cooking instructions!
+
+3. 🛒 Cart Management
+
+    -> Real-time cart updates with:
+
+    -> Quantity increment/decrement
+
+    -> Remove individual items
+
+    -> Local storage persistence for cart items
+
+4. 🔍 Category Filtering
+
+    -> Navigate through categories like Vegetables, Fruits, Grains and Dairy.
+
+    -> Clean UI filters and displays items of selected category.
+
+5. 🔔 Notification System
+   
+Toast-based alerts for actions like adding/removing items and placing orders
+
+**💻 Built With**
+
+1. React for UI components and state management
+
+2. TypeScript for strong typing and maintainability
+
+3. Styled-Components for scoped CSS-in-JS styling
+
+4. Vite for lightning-fast bundling and hot reload
+
+5. LocalStorage for persistent cart and order data
+
